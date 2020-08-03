@@ -3,11 +3,10 @@ Matlab implementation of our Distractor Repressed Dynamic Regression tracker (DR
 
 # Abstract
 
-Visual tracking has yielded promising applications with unmanned aerial vehicle (UAV). In literature, the advanced discriminative correlation filter (DCF) type trackers generally distinguish the foreground from the background with a learned regressor which regresses the implicit circulated samples into a fixed target label. However, the predefined and unchanged regression target results in low robustness and adaptivity to uncertain aerial tracking scenarios. In this work, we exploit the local extreme points of the response map generated in the detection phase to automatically locate current distractors. By repressing the response of distractors in the regressor learning, we can dynamically and adaptively alter our regression target to leverage the tracking robustness as well as adaptivity. Substantial experiments conducted on three challenging UAV benchmarks demonstrate both the excellent performance and extraordinary speed (∼50fps on a cheap CPU) of our tracker.
-
+Visual tracking has yielded promising applications with unmanned aerial vehicle (UAV). In literature, the advanced discriminative correlation filter (DCF) type trackers generally distinguish the foreground from the background with a learned regressor which regresses the implicit circulated samples into a fixed target label. However, the predefined and unchanged regression target results in low robustness and adaptivity to uncertain aerial tracking scenarios. In this work, we exploit the local maximum points of the response map generated in the detection phase to automatically locate current distractors1. By repressing the response of distractors in the regressor learning, we can dynamically and adaptively alter our regression target to leverage the tracking robustness as well as adaptivity. Substantial experiments conducted on three challenging UAV benchmarks demonstrate both excellent performance and extraordinary speed (∼50fps on a cheap CPU) of our tracker
 # Publication
 
-DR²Track is proposed in our paper for IROS 2020. Detailed explanation of our method can be found in the paper:
+DR²Track is proposed in our paper accepted by IROS 2020. Detailed explanation of our method can be found in the paper:
 
 Changhong Fu, Fangqiang Ding,  Yiming Li, Jin Jin and Chen Feng.
 
