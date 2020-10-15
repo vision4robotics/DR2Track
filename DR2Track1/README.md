@@ -13,6 +13,21 @@ Changhong Fu, Fangqiang Ding,  Yiming Li, Jin Jin and Chen Feng.
 DR²Track:  Towards Real-Time Visual Tracking for UAV via Distractor Repressed Dynamic Regression  
 
 https://arxiv.org/abs/2008.03912
+
+If you want to refer to this paper, please cite it as follows:
+
+@article{Fu2020Towards,
+
+author = {Changhong Fu and Fangqiang Ding and Yiming Li and Jin Jin and Chen Feng},
+
+title = {DR^2Track: Towards Real-Time Visual Tracking for UAV via Distractor Repressed Dynamic Regression},
+
+year = {2020},
+
+journal = {arXiv:2008.03912}
+
+}
+
 # Contact
 
 Changhong Fu
