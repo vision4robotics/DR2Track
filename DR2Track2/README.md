@@ -10,7 +10,7 @@ feature-based trackers, but also exhibits comparable performance compared to dee
 
 # Publication
 
-DR²Track is proposed in our paper for TEST. Detailed explanation of our method can be found in the paper:
+DR²Track is proposed in our paper for EAAI. Detailed explanation of our method can be found in the paper:
 
 Changhong Fu, Fangqiang Ding,  Yiming Li,  Jin Jin and Chen Feng.
 
