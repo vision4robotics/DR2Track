@@ -68,21 +68,21 @@ for frame = 1:num_frames
             response=circshift(response,floor([size(response,1),size(response,2)]/2));
             response=circshift(response,round([-disp_row,-disp_col]));
             
-            savedir='H:\IROS\DR2Track\DR2_JOURNAL\Fig1\response_DR2\';
-              if frame==49
-            set(gcf,'visible','on'); 
-            colormap(jet);
-            Q=surf(w);
-            axis ij;
-            axis off;
-            view([40,40]);
+        %    savedir='H:\IROS\DR2Track\DR2_JOURNAL\Fig1\response_DR2\';
+        %      if frame==49
+        %    set(gcf,'visible','on'); 
+        %    colormap(jet);
+        %    Q=surf(w);
+        %    axis ij;
+        %    axis off;
+        %    view([40,40]);
 %             set(Q,'edgecolor','none');
-            backColor = [237/255 237/255 237/255];
-            set(gca, 'color', backColor);
-            set(gcf, 'InvertHardCopy', 'off');
+        %    backColor = [237/255 237/255 237/255];
+       %     set(gca, 'color', backColor);
+       %     set(gcf, 'InvertHardCopy', 'off');
 %             shading interp
-            saveas(gcf,[savedir,num2str(frame),'.png']);
-             end
+     %       saveas(gcf,[savedir,num2str(frame),'.png']);
+    %         end
              
             
 
